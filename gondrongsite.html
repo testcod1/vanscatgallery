@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name ="description" content="Ini adalah dunia kucing Vanka">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                       <title>Gondrong's World</title>
+    <link rel="stylesheet" href="gondrongsite.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4550b5f1cc.js" crossorigin="anonymous"></script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <link rel="stylesheet" href="css/lightbox.min.css">
+  </head>
+  <body>
+    <section class="kepala">
+    <nav>
+      <img src="logokucing.png" alt="Cute Cat Photo">
+      <div class="arahan-link"id="navLinks">
+      <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+       <ul>
+         <li><a href="index.html">HOME</a></li>
+         <li><a href="leonisite.html">LEONI</a></li>
+         <li><a href="snowysite.html">SNOWY</a></li>
+         <li><a href="gondrongsite.html">GONDRONG</a></li>
+       </ul>
+     </div>
+     <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+  </nav>
+  <div class="tulisanbox">
+    <h1>Welcome To Gondrong's Gallery</h1>
+    <p>Scroll kebawah untuk melihat kelucuan kucing oyen!</p>
+  </div>
+</section>
+<!-- BAGIAN TEXT TENGAH & FOTO FOTO GONDRONG-->
+<hr>
+    <div class="text">
+     <h3>Tekan foto untuk zoom!</h3>
+    </div>
+    <hr>
+    <section class="foto">
+<!-- foto GONDRONG  -->
+    <div class="fotoleoni">
+      <a href="gallery/gondrong1.jpg" data-lightbox="mygallery" data-title="22/12/18"><img src="gallery/gondrong1-small.jpg" alt="Cute Leoni Photo"> </a>
+      <a href="gallery/gondrong2.jpg" data-lightbox="mygallery" data-title="22/11/18"><img src="gallery/gondrong2-small.jpg" alt="Cute Leoni Photo"> </a>
+      <a href="gallery/gondrong3.jpg" data-lightbox="mygallery" data-title="26/11/18"><img src="gallery/gondrong3-small.jpg" alt="Cute Leoni Photo"> </a>
+      <a href="gallery/gondrong4.jpg" data-lightbox="mygallery" data-title="26/11/18"><img src="gallery/gondrong4-small.jpg" alt="Cute Leoni Photo"> </a>
+      <a href="gallery/gondrong5.jpg" data-lightbox="mygallery" data-title="24/11/18"><img src="gallery/gondrong5-small.jpg" alt="Cute Leoni Photo"> </a>
+      <a href="gallery/gondrong6.jpg" data-lightbox="mygallery" data-title="03/11/18"><img src="gallery/gondrong6-small.jpg" alt="Cute Leoni Photo"> </a>
+      <a href="gallery/gondrong7.jpg" data-lightbox="mygallery" data-title="11/06/18"><img src="gallery/gondrong7-small.jpg" alt="Cute Leoni Photo"> </a>
+      <a href="gallery/gondrong8.jpg" data-lightbox="mygallery" data-title="16/07/18"><img src="gallery/gondrong8-small.jpg" alt="Cute Leoni Photo"> </a>
+      <a href="gallery/gondrong9.jpg" data-lightbox="mygallery" data-title="12/06/18"><img src="gallery/gondrong9-small.jpg" alt="Cute Leoni Photo"> </a>
+      <a href="gallery/gondrong10.jpg" data-lightbox="mygallery" data-title="24/11/18"><img src="gallery/gondrong10-small.jpg" alt="Cute Leoni Photo"> </a>
+      <a href="gallery/gondrong11.jpg" data-lightbox="mygallery" data-title="24/04/19"><img src="gallery/gondrong11-small.jpg" alt="Cute Leoni Photo"> </a>
+      <a href="gallery/gondrong12.jpg" data-lightbox="mygallery" data-title="12/02/21"><img src="gallery/gondrong12-small.jpg" alt="Cute Leoni Photo"> </a>
+
+    </div>
+  </section>
+  <!--JavaScript for toggle menu------>
+<script>
+var navLinks = document.getElementById("navLinks");
+function showMenu(){
+navLinks.style.right = "0";
+}
+function hideMenu(){
+navLinks.style.right = "-200px";
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name ="description" content="Ini adalah dunia kucing Vanka">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                       <title>Snowy's World</title>
+    <link rel="stylesheet" href="snowysite.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4550b5f1cc.js" crossorigin="anonymous"></script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <link rel="stylesheet" href="css/lightbox.min.css">
+  </head>
+  <body>
+    <section class="kepala">
+    <nav>
+      <img src="logokucing.png" alt="Cute Cat Photo">
+      <div class="arahan-link"id="navLinks">
+      <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+       <ul>
+         <li><a href="index.html">HOME</a></li>
+         <li><a href="leonisite.html">LEONI</a></li>
+         <li><a href="snowysite.html">SNOWY</a></li>
+         <li><a href="gondrongsite.html">GONDRONG</a></li>
+       </ul>
+     </div>
+     <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+  </nav>
+  <div class="tulisanbox">
+    <h1>Welcome To Snowy's Gallery</h1>
+    <p>Scroll kebawah untuk melihat kelucuan kucing nakal!</p>
+  </div>
+</section>
+<!-- BAGIAN TEXT TENGAH & FOTO FOTO SNOWY-->
+<hr>
+    <div class="text">
+     <h3>Tekan foto untuk zoom!</h3>
+    </div>
+    <hr>
+    <section class="foto">
+<!-- foto snowy -->
+    <div class="fotoleoni">
+      <a href="gallery/snowy1.jpg" data-lightbox="mygallery" data-title="20/08/22"><img src="gallery/snowy1-small.jpg" alt="Cute Leoni Photo"> </a>
+      <a href="gallery/snowy2.jpg" data-lightbox="mygallery" data-title="28/02/22"><img src="gallery/snowy2-small.jpg" alt="Cute Leoni Photo"> </a>
+      <a href="gallery/snowy3.jpg" data-lightbox="mygallery" data-title="19/11/21"><img src="gallery/snowy3-small.jpg" alt="Cute Leoni Photo"> </a>
+      <a href="gallery/snowy4.jpg" data-lightbox="mygallery" data-title="05/12/21"><img src="gallery/snowy4-small.jpg" alt="Cute Leoni Photo"> </a>
+      <a href="gallery/snowy5.jpg" data-lightbox="mygallery" data-title="17/01/22"><img src="gallery/snowy5-small.jpg" alt="Cute Leoni Photo"> </a>
+      <a href="gallery/snowy6.jpg" data-lightbox="mygallery" data-title="22/01/22"><img src="gallery/snowy6-small.jpg" alt="Cute Leoni Photo"> </a>
+      <a href="gallery/snowy7.jpg" data-lightbox="mygallery" data-title="20/08/22"><img src="gallery/snowy7-small.jpg" alt="Cute Leoni Photo"> </a>
+      <a href="gallery/snowy8.jpg" data-lightbox="mygallery" data-title="20/08/22"><img src="gallery/snowy8-small.jpg" alt="Cute Leoni Photo"> </a>
+      <a href="gallery/snowy9.jpg" data-lightbox="mygallery" data-title="05/07/22"><img src="gallery/snowy9-small.jpg" alt="Cute Leoni Photo"> </a>
+      <a href="gallery/snowy10.jpg" data-lightbox="mygallery" data-title="20/08/22"><img src="gallery/snowy10-small.jpg" alt="Cute Leoni Photo"> </a>
+      <a href="gallery/snowy11.jpg" data-lightbox="mygallery" data-title="05/07/22"><img src="gallery/snowy11-small.jpg" alt="Cute Leoni Photo"> </a>
+      <a href="gallery/snowy12.jpg" data-lightbox="mygallery" data-title="28/02/22"><img src="gallery/snowy12-small.jpg" alt="Cute Leoni Photo"> </a>
+    </div>
+  </section>
+  <!--JavaScript for toggle menu------>
+<script>
+var navLinks = document.getElementById("navLinks");
+function showMenu(){
+navLinks.style.right = "0";
+}
+function hideMenu(){
+navLinks.style.right = "-200px";
+}
+</script>
+  </body>
+</html>
