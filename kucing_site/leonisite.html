@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name ="description" content="Ini adalah dunia kucing Vanka">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                       <title>Leoni's World</title>
+    <link rel="stylesheet" href="leonisite.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4550b5f1cc.js" crossorigin="anonymous"></script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <link rel="stylesheet" href="css/lightbox.min.css">
+  </head>
+  <body>
+    <section class="kepala">
+    <nav>
+      <img src="logokucing.png" alt="Cute Cat Photo">
+      <div class="arahan-link"id="navLinks">
+      <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+       <ul>
+         <li><a href="index.html">HOME</a></li>
+         <li><a href="leonisite.html">LEONI</a></li>
+         <li><a href="snowysite.html">SNOWY</a></li>
+         <li><a href="gondrongsite.html">GONDRONG</a></li>
+       </ul>
+     </div>
+     <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+  </nav>
+  <div class="tulisanbox">
+    <h1>Welcome To Leoni's Gallery</h1>
+    <p>Scroll kebawah untuk melihat kelucuan kucing oyen!</p>
+  </div>
+</section>
+<hr>
+<!-- BAGIAN TEXT TENGAH & FOTO FOTO LEONI-->
+<section class="text">
+  <div class="text2">
+  <h3>Tekan foto untuk zoom!</h3>
+</div>
+</section>
+<section class="foto">
+<hr>
+<!-- foto leoni -->
+    <div class="fotoleoni">
+      <a href="gallery/fotoleoni1.jpeg" data-lightbox="mygallery" data-title="20/08/22"><img src="gallery/fotoleoni1-small.jpg" alt="Cute Leoni Photo"> </a>
+      <a href="gallery/fotoleoni2.jpeg" data-lightbox="mygallery" data-title="20/08/22"><img src="gallery/fotoleoni2-small.jpg" alt="Cute Leoni Photo"> </a>
+      <a href="gallery/fotoleoni3.jpeg" data-lightbox="mygallery" data-title="20/08/22"><img src="gallery/fotoleoni3-small.jpg" alt="Cute Leoni Photo"> </a>
+      <a href="gallery/fotoleoni4.jpg" data-lightbox="mygallery" data-title="20/08/22"><img src="gallery/fotoleoni4-small.jpg" alt="Cute Leoni Photo"> </a>
+      <a href="gallery/fotoleoni5.jpeg" data-lightbox="mygallery" data-title="24/07/22"><img src="gallery/fotoleoni5-small.jpg" alt="Cute Leoni Photo"> </a>
+      <a href="gallery/fotoleoni6.jpeg" data-lightbox="mygallery" data-title="24/07/22"><img src="gallery/fotoleoni6-small.jpg" alt="Cute Leoni Photo"> </a>
+      <a href="gallery/fotoleoni7.jpeg" data-lightbox="mygallery" data-title="15/07/22"><img src="gallery/fotoleoni7-small.jpg" alt="Cute Leoni Photo"> </a>
+      <a href="gallery/fotoleoni8.jpg" data-lightbox="mygallery" data-title="15/07/22"><img src="gallery/fotoleoni8-small.jpg" alt="Cute Leoni Photo"> </a>
+      <a href="gallery/fotoleoni9.jpeg" data-lightbox="mygallery" data-title="16/06/22"><img src="gallery/fotoleoni9-small.jpg" alt="Cute Leoni Photo"> </a>
+      <a href="gallery/fotoleoni10.jpeg" data-lightbox="mygallery" data-title="16/06/22"><img src="gallery/fotoleoni10-small.jpg" alt="Cute Leoni Photo"> </a>
+      <a href="gallery/fotoleoni11.jpeg" data-lightbox="mygallery" data-title="19/06/22"><img src="gallery/fotoleoni11-small.jpg" alt="Cute Leoni Photo"> </a>
+      <a href="gallery/fotoleoni12.jpeg" data-lightbox="mygallery" data-title="21/06/22"><img src="gallery/fotoleoni12-small.jpg" alt="Cute Leoni Photo"> </a>
+    </div>
+  </section>
+                      <!--JavaScript for toggle menu------>
+    <script>
+     var navLinks = document.getElementById("navLinks");
+     function showMenu(){
+       navLinks.style.right = "0";
+     }
+     function hideMenu(){
+       navLinks.style.right = "-200px";
+     }
+    </script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name ="description" content="Ini adalah dunia kucing Vanka">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                       <title>Vanka's Cat</title>
+    <link rel="stylesheet" href="kedua.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4550b5f1cc.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <section class="kepala">
+  <nav>
+    <img src="logokucing.png" alt="Cute Cat Photo">
+    <div class="arahan-link" id="navLinks">
+    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+     <ul>
+       <li><a href="index.html">HOME</a></li>
+       <li><a href="leonisite.html">LEONI</a></li>
+       <li><a href="snowysite.html">SNOWY</a></li>
+       <li><a href="gondrongsite.html">GONDRONG</a></li>
+     </ul>
+   </div>
+   <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+</nav>
+     <div class="tulisanbox">
+       <h1>Welcome To Cat's World!</h1>
+       <p>Disini saya akan mengenalkan kucing kucing yang sangat lucu!<p>
+       <a href="smuakucing.html"class="lihat-btn">AYO MULAI!</a>
+     </div>
+    <div class="kaki">
+    <a href="https://www.instagram.com/evankafzy/"><i class="fa-brands fa-instagram fa-3x"></i></a>
+    <a href="https://www.facebook.com/evankafzy"><i class="fa-brands fa-square-facebook fa-3x"></i></a>
+  </div>
+</section>
+  <!--JavaScript for toggle menu------>
+ <script>
+     var navLinks = document.getElementById("navLinks");
+     function showMenu(){
+       navLinks.style.right = "0";
+     }
+     function hideMenu(){
+       navLinks.style.right = "-200px";
+     }
+ </script>
+</body>
+
+</html>

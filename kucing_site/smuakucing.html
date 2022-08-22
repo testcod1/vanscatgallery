@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name ="description" content="Ini adalah dunia kucing Vanka">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                       <title>Gallery</title>
+    <link rel="stylesheet" href="smuakucing.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4550b5f1cc.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!--Bagian atas arahan-->
+  <section class="kepala">
+      <nav>
+        <img src="logokucing.png" alt="Cute Cat Photo">
+        <div class="arahan-link">
+        <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="leonisite.html">LEONI<a/></li>
+            <li><a href="snowysite.html">SNOWY<a/></li>
+            <li><a href="gondrongsite.html">GONDRONG<a/></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+                 <!--Tulisan di tengah-->
+  <div class="tulisan">
+    <h1>Tekan foto untuk masuk ke Gallery kucing masing-masing!</h1>
+  </div>
+
+               <!--kotak kotak column-->
+    <div class="row">
+    <div class="kotak-col">
+                  <a href="leonisite.html"><img src="depan/leonidepan.png" alt="Leoni's Photo"></a>
+    <div class="layer">
+      <h3></h3>
+    </div>
+    </div>
+    <div class="kotak-col">
+                <a href="snowysite.html"><img src="depan/snowydepan.png" alt="Snowy's Photo"></a>
+    <div class="layer">
+      <h3></h3>
+    </div>
+    </div>
+    <div class="kotak-col">
+                <a href="gondrongsite.html"><img src="depan/gondrongdepan.png"alt="Gondrong's Photo"></a>
+    <div class="layer">
+      <h3></h3>
+    </div>
+    </div>
+  </div>
+</section>
+<!--JavaScript for toggle menu------>
+<script>
+var navLinks = document.getElementById("navLinks");
+function showMenu(){
+navLinks.style.right = "0";
+}
+function hideMenu(){
+navLinks.style.right = "-200px";
+}
+</script>
+
+</body>
+</html>

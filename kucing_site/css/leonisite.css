@@ -1,0 +1,114 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+                /*         BAGIAN DEPAN ATAS           */
+.kepala{
+  font-family: 'Chewy',cursive;
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(255, 99, 71, 0.1),rgba(255, 99, 71, 0.4)),url(bg/leonibg.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+nav{
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img{
+  width: 150px
+}
+.arahan-link{
+  flex: 1;
+  text-align: right;
+}
+.arahan-link ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+.arahan-link ul li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 25px
+}
+.arahan-link ul li::after{
+    content:'';
+    width: 0%;
+    height: 2px;
+    background: #F65A83;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.arahan-link ul li:hover::after{
+  width: 100%
+}
+.tulisanbox{
+  width: 90%;
+  color: #fff;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%,50%);
+  text-align: center;
+}
+.tulisanbox h1{
+  font-family: 'Carter One', cursive;
+  font-family: 'Roboto', sans-serif;
+  font-size: 62px;
+  padding-top: 30px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.tulisanbox p{
+  margin: 10px 0 40px;
+  font-size: 20px;
+  color: #fff;
+  font-family: 'Chewy',cursive;
+}
+.lihat-btn{
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: transparent;
+  cursor: pointer;
+}
+.lihat-btn:hover{
+  border: 1px solid #F29393;
+  background:#F29393;
+  transition: 1s;
+}
+/* FOTO FOTO LEONI */
+.foto{
+  font-family: 'Chewy',cursive;
+  font-size: 20px;
+  color: grey;
+
+}
+.text{
+
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding: 20px 10px;
+}
+.fotoleoni{
+  width: auto;
+  margin: 10px 90px;
+}
+.fotoleoni img{
+  transition: 1s;
+  padding: 15px;
+  width: 350px;
+}
+.fotoleoni img:hover{
+  filter: grayscale();
+  transform: scale(1.1);
+}
